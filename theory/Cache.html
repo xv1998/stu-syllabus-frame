@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>简介 | stu-syllabus-frame</title>
+    <meta name="description" content="课程表小程序框架">
+    
+    
+    <link rel="preload" href="/stu-syllabus-frame/assets/css/0.styles.8704eb99.css" as="style"><link rel="preload" href="/stu-syllabus-frame/assets/js/app.430a36dc.js" as="script"><link rel="preload" href="/stu-syllabus-frame/assets/js/6.d455057c.js" as="script"><link rel="prefetch" href="/stu-syllabus-frame/assets/js/10.8b9b66fc.js"><link rel="prefetch" href="/stu-syllabus-frame/assets/js/11.d75f1e17.js"><link rel="prefetch" href="/stu-syllabus-frame/assets/js/12.a15c98a1.js"><link rel="prefetch" href="/stu-syllabus-frame/assets/js/2.58ee2d79.js"><link rel="prefetch" href="/stu-syllabus-frame/assets/js/3.a0c9327b.js"><link rel="prefetch" href="/stu-syllabus-frame/assets/js/4.061155cc.js"><link rel="prefetch" href="/stu-syllabus-frame/assets/js/5.9402f77e.js"><link rel="prefetch" href="/stu-syllabus-frame/assets/js/7.82231452.js"><link rel="prefetch" href="/stu-syllabus-frame/assets/js/8.37c4ee45.js"><link rel="prefetch" href="/stu-syllabus-frame/assets/js/9.8312cc59.js">
+    <link rel="stylesheet" href="/stu-syllabus-frame/assets/css/0.styles.8704eb99.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/stu-syllabus-frame/" class="home-link router-link-active"><!----> <span class="site-name">stu-syllabus-frame</span></a> <div class="links" style="max-width:nullpx;"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/stu-syllabus-frame/" class="nav-link">首页</a></div><div class="nav-item"><a href="/stu-syllabus-frame/guide/介绍.html" class="nav-link">指南</a></div><div class="nav-item"><a href="/stu-syllabus-frame/theory/api.html" class="nav-link">框架原理</a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <div class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/stu-syllabus-frame/" class="nav-link">首页</a></div><div class="nav-item"><a href="/stu-syllabus-frame/guide/介绍.html" class="nav-link">指南</a></div><div class="nav-item"><a href="/stu-syllabus-frame/theory/api.html" class="nav-link">框架原理</a></div> <!----></nav>  <ul class="sidebar-links"><li><div class="sidebar-group first"><p class="sidebar-heading open"><span>框架原理</span> <!----></p> <ul class="sidebar-group-items"><li><a href="/stu-syllabus-frame/theory/api.html" class="sidebar-link">api</a></li><li><a href="/stu-syllabus-frame/theory/constant.html" class="sidebar-link">constant</a></li><li><a href="/stu-syllabus-frame/theory/Cache.html" class="active sidebar-link">Cache</a></li><li><a href="/stu-syllabus-frame/theory/error.html" class="sidebar-link">error</a></li><li><a href="/stu-syllabus-frame/theory/request.html" class="sidebar-link">request</a></li><li><a href="/stu-syllabus-frame/theory/wxApi.html" class="sidebar-link">wxApi</a></li></ul></div></li></ul> </div> <div class="page"> <div class="content"><h1 id="简介"><a href="#简介" aria-hidden="true" class="header-anchor">#</a> 简介</h1> <p>这个是一个缓存类，封装了小程序storage接口</p> <h1 id="get-symbolkey"><a href="#get-symbolkey" aria-hidden="true" class="header-anchor">#</a> get(symbolKey)</h1> <p>作用：获取指定的缓存</p> <p>方法：通过<code>this[key]</code>先判断内存中是否存在，存在则返回key；内存中不存在则从存储中读取<code>wx.getStorageSync(key)</code></p> <h1 id="set-symbolkey-value"><a href="#set-symbolkey-value" aria-hidden="true" class="header-anchor">#</a> set(symbolKey, value)</h1> <p>作用：异步写入存储</p> <p>方法：<code>wx.setStorage({ key, data: value })</code></p> <h1 id="remove-symbolkey"><a href="#remove-symbolkey" aria-hidden="true" class="header-anchor">#</a> remove(symbolKey)</h1> <p>作用：清除指定缓存</p> <p>方法：<code>wx.removeStorage({ key })</code></p></div> <div class="page-edit"><!----> <!----></div> <div class="page-nav"><p class="inner"><span class="prev">
+        ←
+        <a href="/stu-syllabus-frame/theory/constant.html" class="prev">
+          constant
+        </a></span> <span class="next"><a href="/stu-syllabus-frame/theory/error.html">
+          error
+        </a>
+        →
+      </span></p></div> </div> <!----></div></div>
+    <script src="/stu-syllabus-frame/assets/js/app.430a36dc.js" defer></script><script src="/stu-syllabus-frame/assets/js/6.d455057c.js" defer></script>
+  </body>
+</html>
